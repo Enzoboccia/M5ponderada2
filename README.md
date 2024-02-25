@@ -18,7 +18,21 @@ A Hash Table utiliza uma função de hash para mapear chaves de strings a índic
 
 O arquivo `main.cpp` demonstra o uso básico da Hash Table, incluindo inserção, busca e remoção de elementos. Compile o código com seu compilador C++ favorito e execute o programa para ver os resultados.
 
-## Casos de Teste
+### Casos de Teste
 
-Descreva seus casos de teste aqui, incluindo pré-condições, etapas do teste e pós-condições para inserção, busca e remoção.
+#### Caso de Teste 1: Inserção de Item
+- **Pré-condição**: Tabela hash inicialmente vazia.
+- **Etapas do Teste**: Inserir um item com chave "BIC100" e valor "Caneta Azul".
+- **Pós-condição**: A tabela hash deve conter o item.
+
+#### Caso de Teste 2: Busca de Item Existente
+- **Pré-condição**: Tabela hash contém o item com chave "BIC100" e valor "Caneta Azul".
+- **Etapas do Teste**: Buscar o item com chave "BIC100".
+- **Pós-condição**: O valor retornado deve ser "Caneta Azul".
+
+#### Caso de Teste 3: Remoção de Item
+- **Pré-condição**: Tabela hash contém o item com chave "BIC100" e valor "Caneta Azul".
+- **Etapas do Teste**: Remover o item com chave "BIC100".
+- **Pós-condição**: A tabela hash não deve conter o item.
+
 
